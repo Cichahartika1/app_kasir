@@ -205,7 +205,7 @@ public class Login extends javax.swing.JFrame {
                 L.privilege=rs.getInt("privilege");
           }
             if (L.privilege==0){
-                JOptionPane.showMessageDialog(null, "akun tidak ditemukan");
+                JOptionPane.showMessageDialog(null, "akunn tidak ditemukan");
             }else{
                 switch (L.privilege) {
                     case 1 :
